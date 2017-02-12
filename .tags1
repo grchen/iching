@@ -16,17 +16,17 @@ json	/Users/macpro/git_work/code/iching/yijing_func.py	/^    import json;$/;"	na
 get_bi_str	/Users/macpro/git_work/code/iching/yijing_func.py	/^def get_bi_str(index,base=6):$/;"	function	line:17
 get_up_gua	/Users/macpro/git_work/code/iching/yijing_func.py	/^def get_up_gua(gua_str):$/;"	function	line:36
 get_down_gua	/Users/macpro/git_work/code/iching/yijing_func.py	/^def get_down_gua(gua_str):$/;"	function	line:39
-print_gua_8	/Users/macpro/git_work/code/iching/yijing_func.py	/^def print_gua_8():$/;"	function	line:43
-print_gua_64	/Users/macpro/git_work/code/iching/yijing_func.py	/^def print_gua_64():$/;"	function	line:47
-read_gua_8	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_gua_8(file):$/;"	function	line:51
-read_gua_64	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_gua_64(file):$/;"	function	line:63
-read_gua_all	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_gua_all(file):$/;"	function	line:75
-read_wenyan	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_wenyan(gua_name, line, file):$/;"	function	line:88
-read_one_gua	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_one_gua(line, file):$/;"	function	line:98
-print_gua	/Users/macpro/git_work/code/iching/yijing_func.py	/^def print_gua(gua):$/;"	function	line:138
-print_gua_all	/Users/macpro/git_work/code/iching/yijing_func.py	/^def print_gua_all(gua = None):$/;"	function	line:150
-read_yilin_one_gua	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_yilin_one_gua(line, file):$/;"	function	line:157
-read_yinli_file	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_yinli_file(file):$/;"	function	line:173
-print_yilin	/Users/macpro/git_work/code/iching/yijing_func.py	/^def print_yilin(gua=None):$/;"	function	line:187
-get_gua_name_64	/Users/macpro/git_work/code/iching/yijing_func.py	/^def get_gua_name_64(index):$/;"	function	line:195
-print_yilin_one_gua	/Users/macpro/git_work/code/iching/yijing_func.py	/^def print_yilin_one_gua(gua):$/;"	function	line:200
+print_gua_8	/Users/macpro/git_work/code/iching/yijing_func.py	/^def print_gua_8():$/;"	function	line:42
+print_gua_64	/Users/macpro/git_work/code/iching/yijing_func.py	/^def print_gua_64():$/;"	function	line:46
+read_gua_8	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_gua_8(file):$/;"	function	line:50
+read_gua_64	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_gua_64(file):$/;"	function	line:62
+read_gua_all	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_gua_all(file):$/;"	function	line:74
+read_wenyan	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_wenyan(gua_name, line, file):$/;"	function	line:87
+read_one_gua	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_one_gua(line, file):$/;"	function	line:97
+print_gua	/Users/macpro/git_work/code/iching/yijing_func.py	/^def print_gua(gua):$/;"	function	line:137
+print_gua_all	/Users/macpro/git_work/code/iching/yijing_func.py	/^def print_gua_all(gua = None):$/;"	function	line:149
+read_yilin_one_gua	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_yilin_one_gua(line, file):$/;"	function	line:156
+read_yinli_file	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_yinli_file(file):$/;"	function	line:172
+print_yilin	/Users/macpro/git_work/code/iching/yijing_func.py	/^def print_yilin(gua=None):$/;"	function	line:186
+get_gua_name_64	/Users/macpro/git_work/code/iching/yijing_func.py	/^def get_gua_name_64(index):$/;"	function	line:194
+print_yilin_one_gua	/Users/macpro/git_work/code/iching/yijing_func.py	/^def print_yilin_one_gua(gua):$/;"	function	line:199

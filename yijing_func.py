@@ -39,7 +39,6 @@ def get_up_gua(gua_str):
 def get_down_gua(gua_str):
     return gua_str[3:6]
 
-
 def print_gua_8():
     for (k,v) in gua_8_map.items():
         print k, v[0],v[1],v[2],v[3]
@@ -181,7 +180,7 @@ def read_yinli_file(file):
         line = f.readline()
     f.close()
 
-    print_yilin("1")
+    #print_yilin("1")
 
 
 def print_yilin(gua=None):
@@ -212,3 +211,9 @@ read_gua_8(r"/Users/macpro/git_work/code/iching/buagua.txt")
 read_gua_64(r"/Users/macpro/git_work/code/iching/64gua.txt")
 read_gua_all(r"/Users/macpro/git_work/code/iching/64gua_all.txt")
 read_yinli_file(r"/Users/macpro/git_work/code/iching/yinlindict.js")
+
+# print_gua_8()
+# print_gua_64()
+# print_gua_64()
+# print_gua_all()
+# print_yilin()

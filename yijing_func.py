@@ -205,6 +205,16 @@ def print_yilin_one_gua(gua):
         name = name.ljust(12)
         print name, v
 
+def print_gua_yilin_sql():
+    for (k,v) in gua_64_all_map.items():
+        guaname = k
+        for (m,n) in v.items():
+            if m <> "文言曰":
+                print 'INSERT INTO "gua_64_info" VALUES (' + "'" + guaname + "', '" + m + "', '" + n + "'" + ");"
+            else:
+                for x in n:
+                    print 'INSERT INTO "gua_64_info" VALUES (' + "'" + guaname + "', '" + m + "', '" + x + "'" + ");"
+
 
 
 read_gua_8(r"/Users/macpro/git_work/code/iching/buagua.txt")
@@ -217,3 +227,4 @@ read_yinli_file(r"/Users/macpro/git_work/code/iching/yinlindict.js")
 # print_gua_64()
 # print_gua_all()
 # print_yilin()
+print_gua_yilin_sql()

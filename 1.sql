@@ -1,0 +1,8 @@
+INSERT INTO "gua_8" VALUES ('111', '乾', '☰', '天', '1')
+INSERT INTO "gua_8" VALUES ('011', '兑', '☱', '泽', '2')
+INSERT INTO "gua_8" VALUES ('101', '离', '☲', '火', '3')
+INSERT INTO "gua_8" VALUES ('001', '震', '☳', '雷', '4')
+INSERT INTO "gua_8" VALUES ('110', '巽', '☳', '风', '5')
+INSERT INTO "gua_8" VALUES ('010', '坎', '☵', '水', '6')
+INSERT INTO "gua_8" VALUES ('100', '艮', '☶', '山', '7')
+INSERT INTO "gua_8" VALUES ('000', '坤', '☷', '地', '8')

@@ -1,0 +1,1 @@
+select * from gua_64_info where gua_name='节';

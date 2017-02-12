@@ -1,0 +1,5 @@
+sys	/Users/macpro/git_work/code/iching/yijing_func.py	/^import sys$/;"	namespace	line:2
+ConvertCN	/Users/macpro/git_work/code/iching/yijing_func.py	/^def ConvertCN(s):$/;"	function	line:6
+bugua_map	/Users/macpro/git_work/code/iching/yijing_func.py	/^bugua_map = {   }$/;"	variable	line:10
+read_bagua	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_bagua(file):$/;"	function	line:14
+1	/Users/macpro/git_work/code/iching/焦氏易林字典.js	/^var 焦氏易林字典= {$/;"	property	line:1

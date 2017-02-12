@@ -100,7 +100,8 @@ def get_up_gua(gua_str):
 def get_down_gua(gua_str):
     return gua_str[3:6]
 
-
+def get_xxx(xxx):
+    return ""
 
 
 def get_one_chage(default_number):

@@ -4,4 +4,29 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-1	/Users/macpro/git_work/code/iching/焦氏易林字典.js	/^var 焦氏易林字典= {$/;"	property	line:1
+sys	/Users/macpro/git_work/code/iching/yijing_func.py	/^import sys,collections$/;"	namespace	line:2
+collections	/Users/macpro/git_work/code/iching/yijing_func.py	/^import sys,collections$/;"	namespace	line:2
+gua_8_map	/Users/macpro/git_work/code/iching/yijing_func.py	/^gua_8_map = collections.OrderedDict()$/;"	variable	line:6
+gua_64_map	/Users/macpro/git_work/code/iching/yijing_func.py	/^gua_64_map = collections.OrderedDict()$/;"	variable	line:7
+gua_64_all_map	/Users/macpro/git_work/code/iching/yijing_func.py	/^gua_64_all_map = collections.OrderedDict()$/;"	variable	line:8
+gua_yilin_map	/Users/macpro/git_work/code/iching/yijing_func.py	/^gua_yilin_map = collections.OrderedDict()$/;"	variable	line:9
+gua_index	/Users/macpro/git_work/code/iching/yijing_func.py	/^gua_index = ["彖曰","初九","初六","九二","六二","九三","六三","九四","六四","九五","六五","上九","上六","用六","用九",]$/;"	variable	line:11
+dump_dict	/Users/macpro/git_work/code/iching/yijing_func.py	/^def dump_dict(dict):$/;"	function	line:13
+json	/Users/macpro/git_work/code/iching/yijing_func.py	/^    import json;$/;"	namespace	line:14
+get_bi_str	/Users/macpro/git_work/code/iching/yijing_func.py	/^def get_bi_str(index,base=6):$/;"	function	line:17
+get_up_gua	/Users/macpro/git_work/code/iching/yijing_func.py	/^def get_up_gua(gua_str):$/;"	function	line:36
+get_down_gua	/Users/macpro/git_work/code/iching/yijing_func.py	/^def get_down_gua(gua_str):$/;"	function	line:39
+print_gua_8	/Users/macpro/git_work/code/iching/yijing_func.py	/^def print_gua_8():$/;"	function	line:43
+print_gua_64	/Users/macpro/git_work/code/iching/yijing_func.py	/^def print_gua_64():$/;"	function	line:47
+read_gua_8	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_gua_8(file):$/;"	function	line:51
+read_gua_64	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_gua_64(file):$/;"	function	line:63
+read_gua_all	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_gua_all(file):$/;"	function	line:75
+read_wenyan	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_wenyan(gua_name, line, file):$/;"	function	line:88
+read_one_gua	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_one_gua(line, file):$/;"	function	line:98
+print_gua	/Users/macpro/git_work/code/iching/yijing_func.py	/^def print_gua(gua):$/;"	function	line:138
+print_gua_all	/Users/macpro/git_work/code/iching/yijing_func.py	/^def print_gua_all(gua = None):$/;"	function	line:150
+read_yilin_one_gua	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_yilin_one_gua(line, file):$/;"	function	line:157
+read_yinli_file	/Users/macpro/git_work/code/iching/yijing_func.py	/^def read_yinli_file(file):$/;"	function	line:173
+print_yilin	/Users/macpro/git_work/code/iching/yijing_func.py	/^def print_yilin(gua=None):$/;"	function	line:187
+get_gua_name_64	/Users/macpro/git_work/code/iching/yijing_func.py	/^def get_gua_name_64(index):$/;"	function	line:195
+print_yilin_one_gua	/Users/macpro/git_work/code/iching/yijing_func.py	/^def print_yilin_one_gua(gua):$/;"	function	line:200

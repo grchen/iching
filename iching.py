@@ -163,8 +163,8 @@ def print_gua(gua_data):
         if gua_data[x] == 9 or gua_data[x] == 6:
            chang_yao_number = chang_yao_number + 1
 
-    print "本卦:", gua_map_64[bengua][0],gua_map_64[bengua][3]
-    print "之卦:", gua_map_64[zhigua][0],gua_map_64[zhigua][3]
+    print("本卦:", gua_map_64[bengua][0],gua_map_64[bengua][3])
+    print("之卦:", gua_map_64[zhigua][0],gua_map_64[zhigua][3])
 
     sum_number = sum(gua_data)
     number = 55 - sum_number
@@ -183,20 +183,20 @@ def print_gua(gua_data):
         else:
             forcast_change_yao = 6 - result2 + 1
 
-    print "宜变爻位:", forcast_change_yao
+    print("宜变爻位:", forcast_change_yao)
 
-    if gua_data[forcast_change_yao - 1] == 9 or gua_data[forcast_change_yao - 1] == 6:
-        print "实际宜变变爻:", forcast_change_yao
+    if gua_data[int(forcast_change_yao) - 1] == 9 or gua_data[int(forcast_change_yao) - 1] == 6:
+        print("实际宜变变爻:", forcast_change_yao)
     else:
-        print "变爻个数:", chang_yao_number
+        print("变爻个数:", chang_yao_number)
         if chang_yao_number <= 3:
-            print "使用本卦卦辞断卦:", get_ben_gua(gua_data),get_gua_name(gua_data)
+            print("使用本卦卦辞断卦:", get_ben_gua(gua_data),get_gua_name(gua_data))
         else:
-            print "使用之卦卦辞断卦:", get_zhi_gua(gua_data),get_gua_name(gua_data)
+            print("使用之卦卦辞断卦:", get_zhi_gua(gua_data),get_gua_name(gua_data))
 
 
 
 print_gua(get_one_gua())
-print get_bi_str(3)
-print get_up_gua("101001")
-print get_down_gua("101001")
+print(get_bi_str(3))
+print(get_up_gua("101001"))
+print(get_down_gua("101001"))
